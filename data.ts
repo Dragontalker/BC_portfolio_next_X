@@ -11,40 +11,50 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "Building ultra fast and responsive SPA using modern frontend frameworks such as <b>React</b>, <b>Vue.js</b> and <b>Angular</b>.",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Creating server end applications with relational/non-relation data base using <b>Express.js</b>, <b>Nest.js</b>, <b>Flask</b> and <b>Django</b>.",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "Developing robust RESTful API using <b>Django-rest-api</b>  & <b>Node API</b>.",
   },
   {
     Icon: MdDeveloperMode,
     title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    about: "A daily problem solver in <b>HackerRank</b> and <b>Leet Code</b>.",
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    title: "DevOps Engineer",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Deploying production application on cloud platforms such as <b>Heroku</b>, <b>AWS</b> and <b>Vercel</b>.",
   },
   {
     Icon: RiComputerLine,
-    title: "Whatever",
+    title: "TypeScript/Go Enthusiast ",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "Embracing the future of web development!",
   },
 ];
 
 export const languages: Skill[] = [
+  {
+    Icon: BsCircleFill,
+    name: "JavaScript",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "TypeScript",
+    level: "75",
+  },
   {
     Icon: BsCircleFill,
     name: "Python",
@@ -52,51 +62,42 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
+    name: "React",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "React",
-    level: "70",
+    name: "Express.js",
+    level: "75",
   },
   {
     Icon: BsCircleFill,
     name: "Django",
-    level: "80",
+    level: "30",
   },
-  {
-    Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
-  },
+  
 ];
 
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
+    name: "Jenkins",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
+    name: "AWS",
+    level: "65",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "MongoDB",
     level: "45",
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
+    name: "PostgreSQL",
     level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
   },
 ];
 

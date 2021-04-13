@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -8,45 +8,44 @@ const Sidebar = () => {
   const { theme, setTheme } = useTheme();
 
   const changeTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   return (
     <>
       <Image
-        src="https://sumitdey.netlify.app/static/media/max.9d3a6d3e.jpg"
+        src="/images/square_profile.jpg"
         alt="avatar"
-        className=" mx-auto border rounded-full "
+        className="mx-auto border rounded-full "
         height="128px"
         width="128px"
         layout="intrinsic"
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green ">Sumit</span> Dey
+        <span className="text-green ">Richard</span> Yang
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-        Web Developer
+        Full Stack Web Developer
       </p>
       {/* Resume */}
       <a
-        href="/assets/Sumit Dey Resume.pdf"
-        download="Sumit Dey Resume.pdf"
+        href="https://docs.google.com/document/d/172MHlXEIeXijrEXjlA4M_-OV4Es8vsq0tPKOkXW4oAQ/edit"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
         <GiTie className="w-6 h-6" />
-        <span>Download Resume</span>
+        <span>See My Resume</span>
       </a>
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A">
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" />
+        <a href="https://twitter.com/Dragontalker">
+          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/sumit-dey-4a04431a9/" >
+        <a href="https://www.linkedin.com/in/richard-yang-tong/" >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.instagram.com/_sumax__/">
+        <a href="https://github.com/Dragontalker">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
@@ -57,17 +56,17 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /> <span>Kolkata,India </span>
+          <GoLocation className="mr-2" /> <span>Toronto, Canada</span>
         </div>
-        <p className="my-2 "> code.sumax@gmail.com </p>
-        <p className="my-2"> 8514961665 / 8640960375 </p>
+        <p className="my-2 ">richard.yang.tong@gmail.com</p>
+        <p className="my-2">+1 (647) 533-7683</p>
       </div>
 
       {/* Email Button */}
 
       <button
         className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("mailto:code.sumax@gmail.com")}
+        onClick={() => window.open("mailto:richard.yang.tong@gmail.com")}
       >
         Email me
       </button>
