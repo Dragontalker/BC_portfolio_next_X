@@ -103,102 +103,90 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
   { 
-    name: "COVID Tracker",
-    description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+    name: "Peak Everest E-commerce",
+    description:"A full E-commerce solution for small business. This application includes features such as dynamic updating shopping cart, data base for customer information and transaction records and management dashboard for administration.",
+    image_path: "/images/peak_everr_rest.png",
+    deployed_url: "https://peak-everest-furniture.herokuapp.com/",
+    github_url: "https://github.com/Dragontalker/peak-everest-furniture",
+    category: ["react", "mongo", "node"],
+    key_techs: ["React", "Node.js", "Experss.js", "MongoDB", "Heroku", "RESTful API"]
   },
   {
-    name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
+    name: "Note Taker",
+    image_path: "/images/note_taker.png",
+    deployed_url: "https://dragontalker-note-taker.herokuapp.com/",
+    github_url: "https://github.com/Dragontalker/express-note-taker",
+    category: ["node"],
     description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+      "This project builds a web application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.",
+    key_techs: ["Node.js", "Express.js", "Bootstrap5", "HTML5", "CSS3", "JavaScript", "RESTful API"],
   },
 
   {
-    name: "Dev Talks",
-    image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
+    name: "Fitness Tracker",
+    image_path: "/images/fitness_tracker.png",
+    deployed_url: "https://dragontalker-fitness-tracker.herokuapp.com/",
+    github_url: "https://github.com/Dragontalker/mongodb-fitness-tracker",
+    category: ["node", "mongo"],
     description:
-      "Social Media app for developers who can share project,create posts,etc...",
+      "A fitness tracker application that is built with MongoDB, Node.js, and Express.js.",
     key_techs: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "RESTful API",
+      "Bootstrap5",
     ],
   },
 
   {
-    name: "Realtime Chat App",
-    image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-    category: ["node", "react"],
-    description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-  },
-
-  {
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
-  },
-
-  {
-    name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
-    description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
-  },
-  {
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
-    description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-    key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
-    ],
-  },
-  {
-    name: "Football App",
-    image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
+    name: "Employee Directory",
+    image_path: "/images/employee_directory.png",
+    deployed_url: "https://dragontalker.github.io/react-employee-directory/",
+    github_url: "https://github.com/Dragontalker/react-employee-directory",
     category: ["react"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+      "A dynamic rendered employee management system that is built with React, React Hooks and React Tables.",
+    key_techs: ["React", "React Hooks", "React Tables"],
   },
+
+  {
+    name: "Budget Tracker",
+    image_path: "/images/budget_tracker.png",
+    deployed_url: "https://dragontalker-budget-tracker.herokuapp.com/",
+    github_url: "https://github.com/Dragontalker/pwa-budget-tracker",
+    category: ["mongo", "node"],
+    description:
+      "A PWA (progressive web application) budget tracker that is built with Service Worker, IndexDB and MongoDB.",
+    key_techs: ["Service Worker", "Progressive Web App", "IndexDB", "Node.js", "Express.js", "MongoDB"],
+  },
+
+  {
+    name: "Google Books Search",
+    image_path: "/images/google_book_search.png",
+    deployed_url: "https://dragontalker-library.herokuapp.com/",
+    github_url: "https://github.com/Dragontalker/mern-google-books-search",
+    category: ["react", "node", "mongo"],
+    description:
+      "A personal library application that is built with MERN (React, Express.js, Node.js, MongoDB), and Google Books API.",
+    key_techs: ["React", "Node.js", "Express.js", "MongoDB", "Bootstrap5", "RESTful API"],
+  },
+  {
+    name: "Flux-IM",
+    image_path: "/images/flux_im.png",
+    deployed_url: "https://flux-im.herokuapp.com/",
+    github_url: "https://github.com/Dragontalker/mysql-socketio-chat-room",
+    category: ["node"],
+    description:
+      'A light-weighted web application brings you into the conversion with interesting people. Jump in now!',
+    key_techs: [
+      "Socket.io",
+      "jQuery",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "RESTful API",
+    ],
+  }
 ];
